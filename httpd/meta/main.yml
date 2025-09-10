@@ -1,4 +1,5 @@
 galaxy_info:
+  role_name: httpd
   author: your name: Sourav Shrestha
   description: devops-engineer
   company: freelance
@@ -27,11 +28,10 @@ galaxy_info:
   # To view available platforms and versions (or releases), visit:
   # https://galaxy.ansible.com/api/v1/platforms/
   #
-  # platforms:
-  # - name: Fedora
-  #   versions:
-  #   - all
-  #   - 25
+  platforms:
+  - name: ubuntu
+    versions:
+      - all
   # - name: SomePlatform
   #   versions:
   #   - all
