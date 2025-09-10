@@ -1,0 +1,6 @@
+---
+# tasks file for httpd
+- name: install apache 2 on ubuntu
+  ansible.builtin.apt:
+     name: apache2
+     state: present

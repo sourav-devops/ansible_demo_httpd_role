@@ -1,0 +1,6 @@
+###to install httpd and using role
+---
+- hosts: all
+  become: yes
+  roles:
+    - httpd
